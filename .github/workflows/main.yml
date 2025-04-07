@@ -7,7 +7,7 @@ on:
 
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latests
+    runs-on: ubuntu-latest  # Corrected here
 
     steps:
     - name: Checkout code
@@ -32,3 +32,4 @@ jobs:
 
     - name: Push Docker image
       run: docker push ${{ secrets.DOCKER_USERNAME }}/nodejs-demo-app
+
