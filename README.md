@@ -39,4 +39,5 @@ I added path filters to the workflow so it only runs when important files (like 
 
 ![Workflow Success](assets/workflow-success.png)
 
-https://hub.docker.com/r/korinelu/nodejs-demo-app
+https://github.com/Sravanikokkera/nodejs-demo-app.git
+
